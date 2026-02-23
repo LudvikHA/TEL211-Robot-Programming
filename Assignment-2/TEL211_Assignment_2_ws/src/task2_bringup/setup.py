@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'imrt_teleop'
+package_name = 'task2_bringup'
 
 setup(
     name=package_name,
@@ -14,9 +14,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='ludvikha',
-    maintainer_email='ludvik.hoibjerg-aslaksen@nmbu.no',
-    description='Teleop for TurtleBot3',
-    license='Apache-2.0',
+    maintainer_email='ludvik253@gmail.com',
+    description='TODO: Package description',
+    license='TODO: License declaration',
     extras_require={
         'test': [
             'pytest',
@@ -24,7 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "teleop = imrt_teleop.imrt_teleop:main"
         ],
     },
 )
