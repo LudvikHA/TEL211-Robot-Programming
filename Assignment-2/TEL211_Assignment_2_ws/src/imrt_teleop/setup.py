@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "teleop = imrt_teleop.imrt_teleop:main"
+            "teleop = imrt_teleop.imrt_teleop:main",
+            "teleop_turtlesim = imrt_teleop.imrt_teleop_turtlesim:main",
         ],
     },
 )

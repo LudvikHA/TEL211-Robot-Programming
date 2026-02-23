@@ -11,7 +11,7 @@ class TeleopTurtleBot3(Node):
         super().__init__('teleopturtlebot3')
         self.subscription = self.create_subscription(Joy, '/imrt_virtual_joy/joy', self.listener_callback, 10)
 
-        self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.publisher_ = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
         self.get_logger().info(f'# Teleop for TurtleBot3 started', once=True)
 
     def listener_callback(self, msg):

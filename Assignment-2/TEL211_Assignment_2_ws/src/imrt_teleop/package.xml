@@ -3,9 +3,9 @@
 <package format="3">
   <name>imrt_teleop</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ludvikha@todo.todo">ludvikha</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Convert Joy to Twist and send to cmd_vel topic</description>
+  <maintainer email="ludvik.hoibjerg-aslaksen@nmbu.no">ludvikha</maintainer>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
